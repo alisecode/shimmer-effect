@@ -11,6 +11,7 @@
 		315B89092B7BD087005FFEC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B89082B7BD087005FFEC2 /* ContentView.swift */; };
 		315B890B2B7BD089005FFEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315B890A2B7BD089005FFEC2 /* Assets.xcassets */; };
 		315B890E2B7BD089005FFEC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315B890D2B7BD089005FFEC2 /* Preview Assets.xcassets */; };
+		315B89162B7BD9FA005FFEC2 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B89152B7BD9FA005FFEC2 /* Shimmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		315B89082B7BD087005FFEC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		315B890A2B7BD089005FFEC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315B890D2B7BD089005FFEC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		315B89142B7BD364005FFEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		315B89152B7BD9FA005FFEC2 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		315B89052B7BD087005FFEC2 /* ShimmerText */ = {
 			isa = PBXGroup;
 			children = (
+				315B89142B7BD364005FFEC2 /* Info.plist */,
 				315B89062B7BD087005FFEC2 /* ShimmerTextApp.swift */,
 				315B89082B7BD087005FFEC2 /* ContentView.swift */,
+				315B89152B7BD9FA005FFEC2 /* Shimmer.swift */,
 				315B890A2B7BD089005FFEC2 /* Assets.xcassets */,
 				315B890C2B7BD089005FFEC2 /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				315B89092B7BD087005FFEC2 /* ContentView.swift in Sources */,
+				315B89162B7BD9FA005FFEC2 /* Shimmer.swift in Sources */,
 				315B89072B7BD087005FFEC2 /* ShimmerTextApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +280,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ShimmerText/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShimmerText/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +310,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ShimmerText/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShimmerText/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

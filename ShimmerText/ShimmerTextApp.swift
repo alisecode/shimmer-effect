@@ -2,7 +2,7 @@
 //  ShimmerTextApp.swift
 //  ShimmerText
 //
-//  Created by Алиса Третьякова on 13.02.2024.
+//  Created by Alisa Serhiienko on 13.02.2024.
 //
 
 import SwiftUI
